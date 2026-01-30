@@ -1,0 +1,5 @@
+[tool.ruff]
+line-length = 120
+select = ["E", "F", "W", "I"]   # 相当于 flake8 + isort
+ignore = ["E501"]               # 忽略行过长
+target-version = "py38"         # 按你项目最低 Python 版本写
